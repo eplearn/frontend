@@ -94,3 +94,43 @@ p {
     color: #393939;
 }
 /* окончание блока с карточками товаров */
+
+
+
+/* блок, содержащий кнопку доступа к полному каталогу */
+
+.catalog-access {    
+    background-color:transparent;
+    text-align: center;    
+}
+
+.catalog-access-btn {
+    margin-top: 0;
+    padding: 29px 46px;
+    margin-bottom: 98px;
+    font-size: 18px;
+    font-weight: 400;       
+    color: #ffffff;
+    background-color: #e70000;
+    border: none;
+    transition: 0.3s;          
+}
+button[type="button"] {    
+    outline: none;
+    cursor: pointer;
+    text-align: center;   
+}
+button[type="button"]:hover {    
+    background-color: #f10202;    
+    box-shadow: 0 9px 21px rgba(0, 0, 0, 0.15);    
+}
+button[type="button"]:focus {    
+    background-color: #ff0000;
+    box-shadow: 0 9px 21px rgba(0, 0, 0, 0.15);    
+    text-shadow: 1px 1px 4px #0000008a;
+}
+button[type="button"]:active {
+    color: rgb(29, 27, 27);    
+    background-color:transparent;         
+}
+/* окончание блока, содержащего кнопку доступа к полному каталогу */
