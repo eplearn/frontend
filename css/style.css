@@ -14,7 +14,7 @@ p {
 /* блок с объявлением скидки */
 
 .header {
-    background-color:transparent;
+    background-color: transparent;
     padding-top: 101px;
     padding-bottom: 54px;
 } 
@@ -48,7 +48,7 @@ p {
 /* блок с карточками товаров */
 
 .product {
-    background-color:transparent;
+    background-color: transparent;
 }
 .product-wrap {    
     width: 271px;
@@ -100,7 +100,7 @@ p {
 /* блок, содержащий кнопку доступа к полному каталогу */
 
 .catalog-access {    
-    background-color:transparent;
+    background-color: transparent;
     text-align: center;    
 }
 
@@ -131,7 +131,7 @@ button[type="button"]:focus {
 }
 button[type="button"]:active {
     color: rgb(29, 27, 27);    
-    background-color:transparent;         
+    background-color: transparent;         
 }
 /* окончание блока, содержащего кнопку доступа к полному каталогу */
 
