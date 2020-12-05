@@ -8,3 +8,37 @@ p {
     margin: 0;
     padding: 0;
 }
+
+
+
+/* блок с объявлением скидки */
+
+.header {
+    background-color:transparent;
+    padding-top: 101px;
+    padding-bottom: 54px;
+} 
+.header-exclamation {
+    font-family: "Muller Bold";
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #6c1c02;
+}
+.header-discount { 
+    font-family: "Muller Regular";
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.header-discount-date {
+    font-family: "Muller Bold";
+    font-weight: 700;
+}
+.header-discount-value {
+    font-family: "Muller Extra Bold";
+    font-weight: 700;
+}
+/* окончание блока с объявлением скидки */
