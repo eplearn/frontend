@@ -134,3 +134,56 @@ button[type="button"]:active {
     background-color:transparent;         
 }
 /* окончание блока, содержащего кнопку доступа к полному каталогу */
+
+
+/* стили, применяемые при просмотре страницы на небольших экранах  */
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .product-wrap {    
+        width: 220px;
+        height: 502px;
+    }    
+    .catalog-access-btn {        
+        padding: 12px 33px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    
+    .header {        
+        padding-top: 15px;
+        padding-bottom: 10px;
+    } 
+    .header-exclamation {        
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 400;        
+    }
+    .header-discount {        
+        font-size: 16px;
+        font-weight: 400;        
+    }
+
+    .product-wrap {    
+        width: 220px;
+        height: 440px;
+        margin-bottom: 10px;
+    }
+    .product-image {        
+        height: 350px;
+        padding-top: 15px;
+        padding-bottom: 4px;    
+        text-align: center;    
+    }    
+    .product-price-value {
+        font-size: 16px;        
+    }
+
+    .catalog-access {    
+        padding-top: 25px;   
+    }
+    .catalog-access-btn {        
+        padding: 12px 8px;
+        font-size: 16px;
+    }   
+}
