@@ -42,3 +42,55 @@ p {
     font-weight: 700;
 }
 /* окончание блока с объявлением скидки */
+
+
+
+/* блок с карточками товаров */
+
+.product {
+    background-color:transparent;
+}
+.product-wrap {    
+    width: 271px;
+    height: 502px;    
+    margin: 0 auto 50px;    
+    background-color: #ffffff;
+} 
+.product-wrap:hover {
+    box-shadow: 0 9px 21px rgba(0, 0, 0, 0.05);
+}
+.product-image {    
+    height: 410px;
+    padding-top: 49px;
+    padding-bottom: 0;    
+    text-align: center;    
+}
+.product-text {
+    font-family: "Muller Regular";
+}
+.product-name {    
+    text-align: center;
+    height: 48px;    
+    font-size: 16px;
+    font-weight: 400;
+    color: #393939;
+}
+.product-name-details {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7f7f7f;
+}
+.product-price {    
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Muller Medium";
+    color: #393939;
+}
+.product-price-value {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Muller Bold";
+    color: #393939;
+}
+/* окончание блока с карточками товаров */
