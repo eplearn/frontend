@@ -172,3 +172,56 @@ button[type="button"]:active.products__wrapper__text__get-payment-btn {
     text-shadow: 1px 1px 4px #1b1b1b8a;
 }
 /* end of products block */
+
+/* styles for small screens */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .features__summary__value {
+        font-size: 30px;
+        font-weight: 900;
+        color: #f39003;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .features {
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .features__summary__value {
+        font-size: 26px;
+        font-weight: 700;
+        color: #f39003;
+    }
+
+    .features__wrapper {
+        background-color: #fff;
+        padding: 10px 10px 15px 0;
+        margin-bottom: 10px;
+    }
+
+    button[type="button"] {
+        margin-right: 5px;
+        padding: 5px 10px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    img {
+        max-width: 300px;
+    }
+
+    .products__wrapper__image {
+        display: inline-block;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .products__wrapper__text__name {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #313131;
+    }
+}
