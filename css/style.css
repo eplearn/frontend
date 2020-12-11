@@ -65,3 +65,110 @@ h2, h3, p {
     color: #373737;
 }
 /* end of feature block */
+
+/* products block */
+.products {
+    padding-bottom: 40px;
+}
+
+.products__title {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #313131;
+    position: relative;
+}
+
+.products__title::after {
+    content: url(/img/wavy_line.png);
+    position: absolute;
+    left: calc(50% - 23px);
+    bottom: -15px;
+}
+
+.products__wrapper {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.products__wrapper__image {
+    display: inline-block;
+    width: 421px;
+    height: 314px;
+}
+
+.products__wrapper__text__name {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #313131;
+}
+
+.products__wrapper__text__learn-more-btn {
+    margin-right: 12px;
+    padding: 14px 50px;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.5;
+    border-radius: 5px;
+    color: #373737;
+    background-color: transparent;
+    border: 1px solid #373737;
+    transition: 0.3s;
+}
+.products__wrapper__text__get-payment-btn {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 14px 50px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ff9d00;
+    border: 1px solid #ff9d00;
+    transition: 0.3s;
+}
+
+button[type="button"] {
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+button[type="button"]:hover.products__wrapper__text__learn-more-btn {
+    opacity: 1;
+    color: #373737;
+    background-color: #7c9ca1c0;
+    border: 1px solid #373737;
+}
+
+button[type="button"]:focus.products__wrapper__text__learn-more-btn {
+    opacity: 1;
+    color: #373737;
+    background-color: #7c9ca1c0;
+    border: 1px solid #373737;
+    text-shadow: 1px 1px 4px #fffefe8a;
+}
+
+button[type="button"]:hover.products__wrapper__text__get-payment-btn {
+    color: #ffffff;
+    background-color: #e99000;
+    border: 1px solid #e99000;
+}
+
+button[type="button"]:focus.products__wrapper__text__get-payment-btn {
+    color: #ffffff;
+    background-color: #ffa008;
+    border: 1px solid #ffa008;
+    text-shadow: 1px 1px 4px #0000008a;
+}
+
+button[type="button"]:active.products__wrapper__text__get-payment-btn {
+    color: #ffffff;
+    background-color: #ffa514;
+    border: 1px solid #ffa514;
+    text-shadow: 1px 1px 4px #1b1b1b8a;
+}
+/* end of products block */
