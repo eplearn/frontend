@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2");
+}
+
+.body {
+    font-family: Roboto;
+}
+h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
