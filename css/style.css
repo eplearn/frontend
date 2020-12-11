@@ -10,3 +10,58 @@ h2, h3, p {
     margin: 0;
     padding: 0;
 }
+
+/* feature block */
+.features {
+    padding-top: 53px;
+    padding-bottom: 29px;
+}
+
+.features__summary {
+    text-align: center;
+}
+
+.features__summary__value {
+    font-size: 36px;
+    font-weight: 900;
+    color: #f39003;
+}
+
+.features__summary__clarification {
+    font-size: 16px;
+    font-weight: 400;
+    color: #373737;
+}
+
+.features__wrapper {
+    background-color: #fff;
+    padding: 20px 20px 25px 0;
+    margin-bottom: 30px;
+}
+
+.features__wrapper__image-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 16px;
+}
+
+.features__wrapper__text-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    width: 205px;
+    height: 78px;
+}
+
+.features__wrapper__text-wrapper__title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #373737;
+}
+
+.features__wrapper__text-wrapper__content {
+    font-size: 14px;
+    font-weight: 300;
+    color: #373737;
+}
+/* end of feature block */
