@@ -92,3 +92,135 @@ p {
     color: #373737;
 }
 /* features block ends */
+
+/* products block starts */
+.main-container__products {
+    padding-top: 57px;
+    padding-bottom: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-container__products__title {
+    width: 100%;
+    margin-bottom: 39px;
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    color: #313131;
+}
+
+.main-container__products__title::after {
+    content: url(/img/wavy_line.png);
+    position: absolute;
+    left: calc(50% - 23px);
+    bottom: -15px;
+}
+
+.main-container__products__cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.main-container__products__cards__card {
+    margin: 0 17px 35px;
+    padding: 0 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container__products__cards__card:hover {
+    box-shadow: 0 9px 21px #f4f4f4;
+}
+
+.main-container__products__cards__card__image-wrapper {
+    width: 421px;
+    height: 314px;
+}
+
+.main-container__products__cards__card__text-wrapper {
+    text-align: center;
+}
+
+.main-container__products__cards__card__text-wrapper__name {
+    margin-bottom: 28px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #313131;
+}
+
+button {
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 16px 24px;
+    margin-bottom: 12px;
+}
+
+.main-container__products__cards__card__text-wrapper__learn-more-btn {
+    margin-right: 12px;
+    opacity: 0.5;
+    border-radius: 5px;
+    color: #373737;
+    background-color: transparent;
+    border: 1px solid #373737;
+    transition: 0.3s;
+}
+
+.main-container__products__cards__card__text-wrapper__learn-more-btn:hover {
+    opacity: 1;
+    color: #373737;
+    background-color: #7c9ca1c0;
+    border: 1px solid #373737;
+}
+
+.main-container__products__cards__card__text-wrapper__learn-more-btn:focus {
+    opacity: 1;
+    color: #373737;
+    background-color: #7c9ca1c0;
+    border: 1px solid #373737;
+    text-shadow: 1px 1px 4px #fffefe8a;
+}
+
+.main-container__products__cards__card__text-wrapper__learn-more-btn:active {
+    opacity: 1;
+    color: #5a5858;
+    background-color: #7c9ca1c0;
+    border: 1px solid #373737;
+}
+
+.main-container__products__cards__card__text-wrapper__get-payment-btn {
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ff9d00;
+    border: 1px solid #ff9d00;
+    transition: 0.3s;
+}
+
+.main-container__products__cards__card__text-wrapper__get-payment-btn:hover {
+    color: #ffffff;
+    background-color: #e99000;
+    border: 1px solid #e99000;
+}
+
+.main-container__products__cards__card__text-wrapper__get-payment-btn:focus {
+    color: #ffffff;
+    background-color: #ffa008;
+    border: 1px solid #ffa008;
+    text-shadow: 1px 1px 4px #0000008a;
+}
+
+.main-container__products__cards__card__text-wrapper__get-payment-btn:active {
+    color: #ffffff;
+    background-color: #ffa514;
+    border: 1px solid #ffa514;
+    text-shadow: 1px 1px 4px #1b1b1b8a;
+}
+/* products block ends */
